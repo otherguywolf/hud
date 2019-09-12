@@ -1,11 +1,10 @@
-# hud
-tf2 hud based off of uwui
-credit to the [original creator](https://www.teamfortress.tv/user/uwu) of uwui /n
-credit to [SohamG](https://github.com/SohamG) for some fixes and party chat /n
-credit to [JarateKing](https://www.teamfortress.tv/user/JarateKing) for the killfeed /n
-/n
-Images /n
-/n
+# tf2 hud based off of uwui
+credit to the [original creator](https://www.teamfortress.tv/user/uwu) of uwui
+credit to [SohamG](https://github.com/SohamG) for some fixes and party chat
+credit to [JarateKing](https://www.teamfortress.tv/user/JarateKing) for the killfeed
+
+# Images
+
 ![Arena Mode Team Panel](https://raw.githubusercontent.com/otherguywolf/hud/master/images/arena_teampanel.png)
 ![Arena Mode Win Panel](https://raw.githubusercontent.com/otherguywolf/hud/master/images/arena_winpanel.png)
 ![Payload Panels](https://raw.githubusercontent.com/otherguywolf/hud/master/images/cartpanel.png)
