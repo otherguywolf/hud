@@ -1,0 +1,75 @@
+"Resource/UI/HudBossHealth.res"
+{
+	"BBorderImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BBorderImage"	
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"180"
+		"tall"			"29"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"image"			"replay/thumbnails/bg_white"
+		"alpha"			"180"
+		"drawcolor"		"Gray30"
+
+		"scaleImage"	"1"					
+	}
+	
+	"HealthBarPanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"HealthBarPanel"
+		"xpos"			"7"
+		"ypos"			"7"
+		"zpos"			"4"
+		"wide"			"168"
+		"tall"			"15"
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"BarImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BarImage"	
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"168"
+			"tall"			"18"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"image"			"replay/thumbnails/bg_blue"
+			"scaleImage"	"1"					
+		}
+	}				
+
+	"StunMeter"
+	{	
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"StunMeter"
+		"font"			"Default"
+		"xpos"			"50"
+		"ypos"			"19"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"8"				
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"fgcolor_override"	"255 255 0 255"
+		"bgcolor_override"	"50 0 0 255"
+	}					
+}

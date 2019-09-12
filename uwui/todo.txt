@@ -1,0 +1,15 @@
+finish round won/lost screen (done, highest killstreak display not implemented)
+fix in q/ in multiple qs (done)
+find the element that shows pregame when its not supposed to (has beed disabled)
+engie sapper pannel (done)
+animation files (done)
+redo mode select and casual map select screens (done)
+redo comp and mvm queue screens (comp done)
+hud elements todo:
+mvm hud (done)
+arena hud (done)
+player distruction (wip)
+spell hud (done)
+halloween (done)
+add in details
+file cleanup

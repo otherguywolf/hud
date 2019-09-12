@@ -1,0 +1,79 @@
+event CompetitiveGame_LowerChatWindow
+{
+	StopEvent CompetitiveGame_LowerChatWindow 0
+	StopEvent CompetitiveGame_RestoreChatWindow 0
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+	StopEvent CompetitiveGame_LowerChatWindow 0
+	StopEvent CompetitiveGame_RestoreChatWindow 0
+}
+
+event HudTournament_MoveChatWindow
+{
+	StopEvent CompetitiveGame_LowerChatWindow 0
+	StopEvent CompetitiveGame_RestoreChatWindow 0
+}
+
+event HudTournament_MoveTimerDown
+{
+	SetVisible CountdownLabel 1 0
+}
+
+//Disabled
+event HudMatchStatus_ShowMatchStartDoors
+{
+
+}
+
+//Koth Countdown Timer
+event HudMatchStatus_ShowCountdown
+{
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 0 0
+	Animate CountdownLabel ypos 20 Linear 0 0
+	SetVisible CountdownLabel 0 9.9
+}
+
+event HudTournament_ShowTimerCompetitive
+{
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 0 0
+	SetVisible CountdownBG  0 0
+}
+
+event HudTournament_ShowTimerDefault
+{
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 0 0
+	SetVisible CountdownBG  0 0
+}
+
+event HudTournament_ShowRoundSign
+{
+	SetVisible RoundSignModel 0 0 //this is the round label from the stock hud
+//	RunEventChild RoundSignModel HudTournament_PlaySignAnim 0
+	SetVisible RoundSignModel 0 0
+}
+
+event HudTournament_PlaySignAnim
+{
+//	StopEvent HudTournament_PlaySignAnim
+//	FireCommand 0 "animation intro" //this is related to the above
+//	FireCommand 5 "animation outro"
+}
+
+event TeamStatus_PlayerDead
+{
+	SetVisible DeathPanel  0 0
+	SetVisible SkullPanel  0 0
+	SetVisible respawntime  1 0
+}
+
+event TeamStatus_PlayerAlive
+{
+	SetVisible DeathPanel  0 0
+	SetVisible SkullPanel  0 0
+	SetVisible respawntime 0 0.2
+}
