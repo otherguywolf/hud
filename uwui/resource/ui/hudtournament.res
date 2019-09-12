@@ -426,7 +426,7 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0" //0
+		"visible"		"1"
 		"enabled"		"1"
 		
 		"bgcolor_override"		"Gray30"
@@ -442,7 +442,7 @@
 			"tall"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1" //0
+			"visible"		"1"
 			"enabled"		"1"
 			
 			"proportionaltoparent"	"1"
@@ -456,7 +456,7 @@
 
 		if_competitive
 		{
-			//"visible"		"1"
+			"visible"		"1"
 		}
 
 		if_readymode
@@ -477,7 +477,7 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0" //1
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"bgcolor_override"		"Gray30"
@@ -493,7 +493,7 @@
 
 		if_competitive
 		{
-			//"visible"		"1"
+			"visible"		"1"
 		}
 
 		if_readymode
