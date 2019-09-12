@@ -665,7 +665,7 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0" //1
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 
@@ -737,7 +737,7 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0" //1
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		
@@ -792,7 +792,7 @@
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0" //1
+		"visible"		"1"
 		"enabled"		"1"
 		
 		"MOTD_ShowButtonPanel_SB"
@@ -806,7 +806,7 @@
 			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0" //1
+			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"MOTD"
