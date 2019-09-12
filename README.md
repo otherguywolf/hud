@@ -2,6 +2,7 @@
 credit to the [original creator](https://www.teamfortress.tv/user/uwu) of uwui<br/>
 credit to [SohamG](https://github.com/SohamG) for some fixes and party chat<br/>
 credit to [JarateKing](https://www.teamfortress.tv/user/JarateKing) for the killfeed<br/>
+credit to [Dement, -Dark-, Rocket_Scientist, RoboWB and Red Zed](https://gamebanana.com/guis/33545) for the Consistent Kill icons customisation option<br/>
 
 # Images
 
