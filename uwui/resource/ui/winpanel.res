@@ -353,24 +353,7 @@
 			"enabled"		"0"
 		}
 	}
-	
-	"WinPanelBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"WinPanelBG"
-		"xpos"										"cs-0.5"
-		"ypos"										"16"
-		"zpos"										"2"
-		"wide"										"175"
-		"tall"										"39"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"paintbackground"							"0"
-		//"border"									"MaterialTransparent"
-	}
-	
+
 	"WinPanelBGBorder"
 	{
 		"ControlName"		"EditablePanel"
@@ -944,7 +927,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WinPanelBG"
 		"xpos"			"cs-0.5"
-		"ypos"			"430"
+		"ypos"			"r53"
 		"zpos"			"1"
 		"wide"			"175"
 		"tall"			"50"
@@ -960,5 +943,22 @@
 		"proportionaltoparent"		"1"
 		"bgcolor_override"				"Gray30"
 		"defaultBgColor_override"		"Gray30"
+		"mem"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"mem"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"175"
+			"tall"			"2"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+				
+			"proportionaltoparent"	"1"
+			"bgcolor_override"		"Gray30Solid"	
+		}
 	}
 }
