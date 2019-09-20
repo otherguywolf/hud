@@ -1,3 +1,2 @@
 customization/knucklescross.res or customization/crosshair.res for built in crosshairs
-the options directory contains some diffrent killfeed options
 if you want to change something about this hud consider looking in the customization folder as it contains quite a few easy methods of changing the hud to suit your needs
