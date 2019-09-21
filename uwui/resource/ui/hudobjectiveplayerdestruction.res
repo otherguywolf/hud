@@ -243,7 +243,7 @@
 				"visible"				"1"
 				"enabled"				"1"
 				"image"			"replay/thumbnails/bg_white"
-				"alpha"			"0"
+				"alpha"			"180"
 				"drawcolor"		"Gray30"
 				"proportionalToParent"	"1"
 			}
@@ -929,23 +929,5 @@
 			"visible"		"0"
 			"enabled"		"0"
 		}
-	
-	"ScoreBG"
-	{
-	"fieldName"				"ScoreBG"
-	"ControlName"			"ImagePanel"
-	"xpos"					"-10"
-	"ypos"					"80"
-	"zpos"					"10"
-	"wide"					"340"
-	"tall"					"20"
-	"visible"				"1"
-	"enabled"				"1"
-	"image"			"replay/thumbnails/bg_white"
-	"alpha"			"180"
-	"drawcolor"		"Gray30"
-	"proportionalToParent"	"1"
-	}
-
 	}
 }
