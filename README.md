@@ -2,9 +2,11 @@
 credit to the [original creator](https://www.teamfortress.tv/user/uwu) of uwui<br/>
 credit to [SohamG](https://github.com/SohamG) for some fixes and party chat<br/>
 credit to [JarateKing](https://www.teamfortress.tv/user/JarateKing) for the killfeed<br/>
-
+<br/>
+if you are on windows make sure to install all the fonts in the uwui/resource/fonts directory<br/>
+<br/>
 # Images
-
+<br/>
 ![Arena Mode Team Panel](https://raw.githubusercontent.com/otherguywolf/hud/master/images/arena_teampanel.jpeg)<br/>
 ![Arena Mode Win Panel](https://raw.githubusercontent.com/otherguywolf/hud/master/images/arena_winpanel.jpeg)<br/>
 ![Payload Panels](https://raw.githubusercontent.com/otherguywolf/hud/master/images/cartpanel.jpeg)<br/>
