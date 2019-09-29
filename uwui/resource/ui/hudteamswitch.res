@@ -4,11 +4,11 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"HudTeamSwitchBG"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"60"
+		"ypos"			"25"
 		"zpos"			"-1"
-		"wide"			"320"
-		"tall"			"150"
+		"wide"			"200"
+		"tall"			"100"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -45,11 +45,8 @@
 		"font"			"HudFontSmallBold"
 		"xpos"			"80"
 		"ypos"			"28"
-		"ypos_hidef"	"23"
-		"ypos_lodef"	"20"
 		"zpos"			"1"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
 		"tall"			"55"
 		"autoResize"		"0"
 		"pinCorner"		"0"
