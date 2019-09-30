@@ -747,7 +747,7 @@
 		"LocalPlayerColor"	"White"
 
 		"BaseBackgroundColor"	"Gray30Solid"
-		"LocalBackgroundColor"	"White"
+		"LocalBackgroundColor"	"Gray15Solid"
 
 		"proportionaltoparent"	"1"
 	}
@@ -1298,11 +1298,9 @@
 		"fieldName"				"HudTeamSwitch"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"			"90"
-		"wide"					"320"
+		"xpos"					"cs-0.5"
+		"ypos"					"90" //75
+		"wide"					"200"
 		"tall"					"100"
 	}
 
@@ -1310,7 +1308,7 @@
 	{
 		"fieldName"				"HudArenaNotification"
 		"visible"				"0"
-		"enabled"				"1"
+		"enabled"				"0" //1
 		"xpos"					"c-160"
 		"ypos"					"75"
 		"ypos_hidef"				"90"
@@ -1720,4 +1718,3 @@
 		"alpha"					"100"
 	}
 }
-

@@ -4,8 +4,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"HudTeamSwitchBG"
-		"xpos"			"60"
-		"ypos"			"25"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"200"
 		"tall"			"100"
