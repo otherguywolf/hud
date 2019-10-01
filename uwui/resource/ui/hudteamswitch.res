@@ -23,7 +23,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"SwitchLabel"
 		"font"			"TFFontMedium"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"58"
 		"ypos_hidef"	"40"
 		"ypos_lodef"	"36"
@@ -43,7 +43,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
 		"font"			"HudFontSmallBold"
-		"xpos"			"80"
+		"xpos"			"70"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"230"	[$WIN32]
@@ -60,7 +60,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SwitchImage"
-		"xpos"			"25"
+		"xpos"			"15"
 		"ypos"			"23"
 		"zpos"			"1"
 		"wide"			"50"
