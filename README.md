@@ -28,3 +28,7 @@ if you are on windows make sure to install all the fonts in the uwui/resource/fo
 ![Taunt](https://raw.githubusercontent.com/otherguywolf/hud/master/images/tauntpanel.jpeg)<br/>
 ![Team Select](https://raw.githubusercontent.com/otherguywolf/hud/master/images/team_select.jpeg)<br/>
 ![Win Panel](https://raw.githubusercontent.com/otherguywolf/hud/master/images/winpanel.jpeg)<br/>
+![Player Destruction](https://raw.githubusercontent.com/otherguywolf/hud/master/images/playerdestruction.jpeg)<br/>
+![Halloween Minigame](https://raw.githubusercontent.com/otherguywolf/hud/master/images/halloweenminigame1.jpeg)<br/>
+![Halloween Minigame](https://raw.githubusercontent.com/otherguywolf/hud/master/images/halloweenminigame2.jpeg)<br/>
+![Halloween Minigame](https://raw.githubusercontent.com/otherguywolf/hud/master/images/halloweenminigame3.jpeg)<br/>
