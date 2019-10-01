@@ -1,4 +1,7 @@
 # tf2 hud based off of uwui
+<br/>
+the idea behind this hud was to take uwui, fix some things and add in ui elements for the mvm/halloween/playerdestruction gamemodes <br/>
+<br/>
 credit to the [original creator](https://www.teamfortress.tv/user/uwu) of uwui<br/>
 credit to [SohamG](https://github.com/SohamG) for some fixes and party chat<br/>
 credit to [JarateKing](https://www.teamfortress.tv/user/JarateKing) for the killfeed<br/>
