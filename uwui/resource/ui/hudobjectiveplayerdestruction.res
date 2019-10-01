@@ -444,7 +444,7 @@
 				"zpos"					"1"
 				"wide"					"150"
 				"tall"					"f50"
-				"scaleimage"			"1"
+				"scaleimage"			"0"
 				"visible"				"1"
 				"proportionalToParent"	"1"
 				"positionImage"			"0"
