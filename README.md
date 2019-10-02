@@ -4,7 +4,7 @@ if you are on windows make sure to install all the fonts in the uwui/resource/fo
 <br/>
 credit to the [original creator](https://www.teamfortress.tv/user/uwu) of uwui<br/>
 credit to [SohamG](https://github.com/SohamG) for some fixes and party chat<br/>
-credit to [JarateKing](https://www.teamfortress.tv/user/JarateKing) for the killfeed<br/>
+credit to [JarateKing](https://www.teamfortress.tv/user/JarateKing) for some killfeed things<br/>
 <br/>
 # Images
 ![Arena Mode Team Panel](https://raw.githubusercontent.com/otherguywolf/hud/master/images/arena_teampanel.jpeg)<br/>
