@@ -457,7 +457,7 @@
 		"LocalPlayerColor"	"White"
 
 		"BaseBackgroundColor"	"Gray30Mid"
-		"LocalBackgroundColor"	"Gray15Solid"
+		"LocalBackgroundColor"	"White"
 
 		"proportionaltoparent"	"1"
 	}
