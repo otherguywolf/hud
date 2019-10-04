@@ -480,9 +480,9 @@
 			"fieldName"		"Player2Avatar"
 			"wide"			"0"
 			"tall"			"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"		""
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			""
 		}
 		"Player2Name"
 		{	
@@ -589,9 +589,9 @@
 			"fieldName"		"Player3Avatar"
 			"wide"			"0"
 			"tall"			"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"		""
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			""
 		}
 		"Player3Name"
 		{	
@@ -710,8 +710,8 @@
 			"fieldName"		"Player1Avatar"
 			"wide"			"0"
 			"tall"			"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			""
 		}
 		"Player1Name"
@@ -928,7 +928,6 @@
 			"tall"			"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"labelText"		""
 			"image"			""
 		}
 		"Player3Name"
