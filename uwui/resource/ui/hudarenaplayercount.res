@@ -29,8 +29,6 @@
 			"textAlignment"	"east"
 			"fgcolor"		"Blue"
 		}	
-
-
 	}
 
 	"vs"

@@ -273,18 +273,6 @@
 				"scaleImage"	"1"
 				
 				"proportionaltoparent" "1"
-				
-				if_mvm
-				{
-				}
-				
-				if_competitive
-				{
-				}
-				
-				if_readymode
-				{
-				}		
 			}
 			
 			"respawntime"
@@ -454,11 +442,6 @@
 			"visible"		"0"
 		}
 
-		if_competitive
-		{
-			"visible"		"1"
-		}
-
 		if_readymode
 		{
 			"visible"		"0"
@@ -489,11 +472,6 @@
 		if_mvm
 		{
 			"visible"		"0"
-		}
-
-		if_competitive
-		{
-			"visible"		"1"
 		}
 
 		if_readymode
