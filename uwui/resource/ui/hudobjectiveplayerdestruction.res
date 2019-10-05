@@ -93,7 +93,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CarriedContainer"
 		"xpos"				"0"
-		"ypos"				"r100"
+		"ypos"				"r110"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"100"
@@ -163,15 +163,10 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"WhiteBG"
-			"xpos"			"36"
-			"ypos"			"71"
-			"zpos"			"1"
-			"wide"			"40"
-			"tall"			"18"
+			"wide"			"0"
+			"tall"			"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"TanLight"
 		}	
 	
 		"GreenBG"
@@ -192,14 +187,15 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"TeamLeaderImage"
-			"xpos"			"29"
-			"ypos"			"64"
+			"xpos"			"37"
+			"ypos"			"72"
 			"zpos"			"12"
-			"wide"			"15"
-			"tall"			"15"
+			"wide"			"7"
+			"tall"			"7"
 			"visible"		"0"
 			"enabled"		"1"
-			"image"			"importtool_goldstar"
+			"image"			"replay/thumbnails/material_circle"
+			"drawcolor"		"QuestGold"
 			"scaleImage"	"1"	
 		}
 	}

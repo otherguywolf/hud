@@ -25,41 +25,10 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabelShadow"
-		"font"			"Bold12"
-		"xpos"			"2"
-		//"textinsetx"	"1"
-		"ypos"			"2"
-		//"textinsety"	"1"
-		"zpos"			"1"
-		"wide"			"640"
-		"tall"			"16"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%targetname%"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"fgcolor"				"shadows"
-		"fgcolor_override"		"shadows"
-		"auto_wide_tocontents"	"1"
-		
-		"pin_to_sibling"		"TargetNameLabel"
-		"pin_corner_to_sibling"	"2"
-		"pin_to_sibling_corner"	"2"
-	}
-	
-	"examplething"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"examplething"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-100"
-		"wide"			"f0"
-		"tall"			"16"
-		"bgcolor_override"	"blank"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	"TargetDataLabel"
 	{	
@@ -141,7 +110,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"32"
+			"wide"			"24"
 			"tall"			"10"
 			"autoResize"		"0"
 			"pinCorner"		"0"
@@ -154,7 +123,6 @@
 			"brighttext"		"0"
 			
 			"bgcolor_override"	"Gray30"
-			"paintbackgroundtype"	"2"
 			
 			"pin_to_sibling"	"MoveableKeyLabel"
 			"pin_corner_to_sibling"	"7"
@@ -228,33 +196,6 @@
 			"brighttext"		"0"
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	"AmmoIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -295,16 +236,11 @@
 	{
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
-		"xpos"			"0"
-		"ypos"			"9999"
-		"zpos"			"99"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""
-		"scaleImage"	"1"	
-		"color_outline"	"52 48 45 255"
 	}
 	"TargetIDBG"
 	{
