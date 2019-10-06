@@ -41,8 +41,6 @@
 		"enabled"		"1"
 		"image"			"../hud/ico_time_10"
 		"scaleImage"		"1"	
-		//"teambg_2"		"../hud/objectives_timepanel_red_bg"
-		//"teambg_3"		"../hud/objectives_timepanel_blue_bg"		
 
 		if_comp
 		{

@@ -9,7 +9,7 @@
 		"ypos"			"10"
 		"zpos"			"1002"
 		"wide"			"270"
-		"tall"			"f34" //f70
+		"tall"			"f34"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -18,7 +18,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"10" //8
+		"xpos"		"10"
 		"ypos"		"20"
 		"zpos"		"99"
 		"wide"		"f0"
@@ -27,8 +27,6 @@
 		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"	"west"
 		"font"			"HudFontMediumBigBold"
-		//"fgcolor_override"	"TanDark"
-		
 		"mouseinputenabled"	"0"
 	}
 

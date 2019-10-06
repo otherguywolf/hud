@@ -4,66 +4,40 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Shade"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1000"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
-
-		"bgcolor_override"	"0 0 0 0"
+		"enabled"		"0"
 	}
 
 	"TitleGradient"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TitleGradient"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"0"
-		"tall"		"0"
-		"zpos"	"98"
-		"visible"		"0" //1
-		"enabled"		"1"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
-		"image"		"gradient_pure_black"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"InnerGradient"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"InnerGradient"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"0"
-		"tall"		"0"
-		"zpos"		"1000"
-		"visible"	"0"
-		"enabled"	"1"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
-
-		"image"		"gradient_pure_black"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"OuterGradient"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"OuterGradient"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"0"
-		"tall"		"0"
-		"zpos"		"1000"
-		"visible"	"0"
-		"enabled"	"1"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
-
-		"image"		"gradient_pure_black"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 "CloseButton"

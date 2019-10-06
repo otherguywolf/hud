@@ -18,7 +18,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"10" //8
+		"xpos"		"10"
 		"ypos"		"20"
 		"zpos"		"99"
 		"wide"		"f0"
@@ -27,8 +27,6 @@
 		"labeltext"		"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"	"west"
 		"font"			"HudFontMediumBigBold"
-		//"fgcolor_override"	"TanDark"
-		
 		"mouseinputenabled"	"0"
 	}
 

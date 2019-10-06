@@ -21,7 +21,7 @@
 			"zpos"			"110"
 			"wide"			"o1"
 			"tall"			"70"
-			"visible"		"0" //1
+			"visible"		"0"
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
@@ -58,7 +58,7 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"ShowLeaderboardsButton"
 			"xpos"			"rs1-10"
-			"ypos"			"20" //40
+			"ypos"			"20"
 			"zpos"			"0"
 			"wide"			"p0.45"
 			"tall"			"15"
@@ -82,7 +82,7 @@
 			"ControlName"	"Button"
 			"fieldName"		"ShowMatchHistoryButton"
 			"xpos"			"10"
-			"ypos"			"20" //40
+			"ypos"			"20"
 			"zpos"			"0"
 			"wide"			"p0.45"
 			"tall"			"15"
@@ -105,10 +105,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PlaylistBGPanel"
 			"xpos"			"cs-0.5"
-			"ypos"			"7" //35
+			"ypos"			"7"
 			"zpos"			"-1"
 			"wide"			"p0.98"
-			"tall"			"400" //p1-200
+			"tall"			"400"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			//"border"		"MainMenuBGBorder"

@@ -8,8 +8,8 @@
 		"xpos"			"r0"
 		"ypos"			"20"
 		"zpos"			"1001"
-		"wide"			"f0" //280
-		"tall"			"90" //f34 //f70
+		"wide"			"f0"
+		"tall"			"90"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -19,7 +19,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"Title"
 		"xpos"		"cs-0.5"
-		"ypos"		"4" //20
+		"ypos"		"4"
 		"zpos"		"100"
 		"auto_wide_tocontents"		"1"
 		"tall"		"20"
@@ -37,7 +37,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"TitleBG"
 		"xpos"		"0"
-		"ypos"		"4" //20
+		"ypos"		"4"
 		"zpos"		"100"
 		"wide"		"f0"
 		"tall"		"20"
@@ -53,11 +53,11 @@
 	{
 	//	"ControlName"	"CTFPlaylistPanel"
 		"fieldName"		"playlist"
-		"xpos"			"0" //8
-		"ypos"			"19" //50
+		"xpos"			"0"
+		"ypos"			"19"
 		"zpos"			"100"
-		"wide"			"f0" //255
-		"tall"			"f0" //385
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}

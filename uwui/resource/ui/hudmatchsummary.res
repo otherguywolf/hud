@@ -292,24 +292,10 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamScoreDropshadow"
-					"font"			"MatchSummaryTeamScores"
-					"fgcolor"		"Black"
-					"labelText"		"%blueteamscore%"
-					"textAlignment"		"east"
-					"xpos"			"6"
-					"ypos"			"104"
-					"zpos"			"3"
-					"wide"			"p.19"
-					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"0" //1
-					"enabled"		"1"
-
-					if_large
-					{
-						"ypos"			"44"
-					}
+					"wide"			"0"
+					"tall"			"0"
+					"visible"		"0"
+					"enabled"		"0"
 				}
 				"BlueTeamWinner"
 				{
@@ -337,24 +323,10 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamWinnerDropshadow"
-					"font"			"MatchSummaryWinner"
-					"fgcolor"		"Black"
-					"labelText"		"%blueteamwinner%"
-					"textAlignment"		"east"
-					"xpos"			"6"
-					"ypos"			"104"
-					"zpos"			"3"
-					"wide"			"p.19"
-					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"0" //1
-					"enabled"		"1"
-
-					if_large
-					{
-						"ypos"			"44"
-					}
+					"wide"			"0"
+					"tall"			"0"
+					"visible"		"0"
+					"enabled"		"0"
 				}
 				"BlueTeamImage"
 				{
@@ -561,24 +533,10 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamScoreDropshadow"
-					"font"			"MatchSummaryTeamScores"
-					"fgcolor"		"Black"
-					"labelText"		"%redteamscore%"
-					"textAlignment"		"west"
-					"xpos"			"r4-p.19"
-					"ypos"			"104"
-					"zpos"			"3"
-					"wide"			"p.19"
-					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"0" //1
-					"enabled"		"1"
-
-					if_large
-					{
-						"ypos"			"44"
-					}
+					"wide"			"0"
+					"tall"			"0"
+					"visible"		"0"
+					"enabled"		"0"
 				}
 				"RedTeamWinner"
 				{
@@ -606,24 +564,10 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamWinnerDropshadow"
-					"font"			"MatchSummaryWinner"
-					"fgcolor"		"Black"
-					"labelText"		"%redteamwinner%"
-					"textAlignment"		"west"
-					"xpos"			"r4-p.19"
-					"ypos"			"104"
-					"zpos"			"3"
-					"wide"			"p.19"
-					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"0" //1
-					"enabled"		"1"
-
-					if_large
-					{
-						"ypos"			"44"
-					}
+					"wide"			"0"
+					"tall"			"0"
+					"visible"		"0"
+					"enabled"		"0"
 				}
 				"RedTeamImage"
 				{

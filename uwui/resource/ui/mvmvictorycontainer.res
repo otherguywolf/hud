@@ -4,13 +4,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"0" //1
-		"bgcolor_override"		"20 20 20 245"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 

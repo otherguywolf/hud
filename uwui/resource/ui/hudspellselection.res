@@ -99,16 +99,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountTextShadow"
-		"font"			"HudFontMediumBigBold"
-		"labelText"		"%counttext%"
-		"textAlignment" "center"
-		"xpos"			"47"
-		"ypos"			"18"
-		"xpos_minmode"	"47"
-		"ypos_minmode"	"38"
-		"wide"			"20"
-		"tall"			"20"
-		"fgcolor"		"0 0 0 0" //255
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
 	}
 	
 	"CountText"

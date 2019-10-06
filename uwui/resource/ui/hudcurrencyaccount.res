@@ -44,23 +44,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
-		"font"			"ProductBold10"
-		"fgcolor"		"blank"
-		"xpos"			"3"
-		"ypos"			"0"
-		"zpos"			"4"
 		"wide"			"0"
-		"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"%currency%"
-		
-		"auto_wide_tocontents"		"1"
-		"use_proportional_insets"	"1"
-		"textinsetx"				"10"
-		
-		"bgcolor_override"	"blank"		//"CreditsGreen"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	"GreenBG"
 	{

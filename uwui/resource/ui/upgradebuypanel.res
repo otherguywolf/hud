@@ -67,7 +67,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"PaintBackgroundType" "0" //2
+		"PaintBackgroundType" "0"
 		"bgcolor_override"	"Gray15Solid"
 	}
 	
@@ -85,7 +85,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"PaintBackgroundType" "0" //2
+		"PaintBackgroundType" "0"
 		"bgcolor_override"	"235 226 202 255"
 	}
 	
@@ -164,7 +164,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"PaintBackgroundType" "0" //2
+		"PaintBackgroundType" "0"
 		"bgcolor_override"	"Gray30Solid"
 	}
 	
