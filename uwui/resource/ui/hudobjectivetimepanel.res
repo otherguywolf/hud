@@ -1,6 +1,6 @@
 "Resource/UI/HudObjectiveTimePanel.res"
 {	
-	"ServerTimeLimitLabel"
+		"ServerTimeLimitLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
@@ -26,7 +26,7 @@
 		"bgcolor_override"			"Gray30"
 	}
 	
-	"WaitingForPlayersLabel"
+		"WaitingForPlayersLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"

@@ -58,56 +58,29 @@
 		}
 	}
 	
-	//"CountdownLabel" //now unused
-	//{	
-	//	"ControlName"	"CExLabel"
-	//	"fieldName"		"CountdownLabel"
-	//	"font"			"HudFontGiant"
-	//	"xpos"			"cs-0.5"
-	//	"ypos"			"cs-0.1"
-	//	"wide"			"40"
-	//	"tall"			"40"
-	//	"zpos"			"5"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
-	//	"visible"		"0"
-	//	"enabled"		"1"
-	//	"wrap"			"0"
-	//	"labelText"		"%countdown%"
-	//	"textAlignment"	"center"
-	//	"proportionaltoparent"	"1"
-	//	"fgcolor"		"TanLight"
-	//
-	//	if_readymode
-	//	{
-	//		"xpos"			"300"
-	//		"ypos"			"130"
-	//	}
-	//}
-	
-	"CountdownLabel"
+		"CountdownLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"RobotoBold10" //HudFontGiant
-		"xpos"			"cs-0.5" //230
-		"ypos"			"3" //r55
-		"wide"			"30" //40
-		"tall"			"16" //40
-		"zpos"			"3" //5
+		"font"			"RobotoBold10"
+		"xpos"			"cs-0.5"
+		"ypos"			"3"
+		"wide"			"30"
+		"tall"			"16"
+		"zpos"			"3"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
-		"labelText"		"%countdown%" //
+		"labelText"		"%countdown%"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"		"Gray30"
 
 		if_mvm
 		{
-			"ypos"		"55" //0
+			"ypos"		"60"
 		}
 
 		if_readymode

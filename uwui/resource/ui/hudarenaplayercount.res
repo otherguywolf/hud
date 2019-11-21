@@ -1,27 +1,25 @@
 "Resource/UI/HudArenaPlayerCount.res"
 {
-	"blueteam"
+		"blueteam"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"blueteam"
-		"xpos"			"cs-1.2"
+		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"
-		"auto_wide_tocontents"	"1"
-		"tall"			"25"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		
-		"count"
+			"count"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"0"
-			"ypos"			"-2"
-			"zpos"			"2"
-			
-			"tall"			"25"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"xpos"			"cs-1.3"
+			"ypos"			"3"
+			"zpos"			"3"
+			"wide"			"30"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"RobotoMedium20"
@@ -31,43 +29,41 @@
 		}	
 	}
 
-	"vs"
+		"vs"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"vs"
 		"labelText"		"vs"
 		"xpos"			"cs-0.5"
-		"ypos"			"-2"
+		"ypos"			"3"
 		"zpos"			"1"
 		"wide"			"8"
-		"tall"			"25"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"White"
 	}
 
-	"redteam"
+		"redteam"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"redteam"
-		"xpos"			"cs0.2"
+		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"
-		"auto_wide_tocontents"	"1"
-		"tall"			"25"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 
-		"count"
+			"count"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"0"
-			"ypos"			"-2"
-			"zpos"			"2"
-			
-			"tall"			"25"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"xpos"			"cs0.3"
+			"ypos"			"3"
+			"zpos"			"3"
+			"wide"			"30"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"RobotoMedium20"
@@ -76,27 +72,17 @@
 			"fgcolor"		"Red"
 		}			
 	}
-	"background"
+		"background"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"background"
 		"xpos"			"cs-0.5"
 		"ypos"			"3"
-		"zpos"			"0"
-		"wide"			"38"
+		"zpos"			"1"
+		"wide"			"60"
 		"tall"			"16"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/bg_white"
-		"alpha"			"180"
-		"drawcolor"		"Gray30"
-				
-		"src_corner_height"		"23"			// pixels inside the image
-		"src_corner_width"		"23"
-					
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0" 	
+		"bgcolor_override"		"Gray30"
 	}
 }
