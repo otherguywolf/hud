@@ -1,4 +1,4 @@
-# uwui v3
+# uwui v3.1
 the idea behind this hud was to take uwui, fix some things and add in ui elements for the mvm/halloween/playerdestruction gamemodes <br/>
 to install place the uwui folder inside your custom directory<br/>
 if you are on windows make sure to install all the fonts in the uwui/resource/fonts directory<br/>
