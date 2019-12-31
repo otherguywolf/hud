@@ -17,4 +17,3 @@
 		"bg_image"		"workshop_partner/hm_watch/hm_watch_BG"
 	}	
 }
-

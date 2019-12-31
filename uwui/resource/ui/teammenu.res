@@ -658,4 +658,3 @@
 		"font"			"MenuSmallFont"
 	}
 }
-

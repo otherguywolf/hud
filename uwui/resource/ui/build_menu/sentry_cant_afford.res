@@ -11,6 +11,5 @@
 	"NumberLabel"
 	{	
 		"labelText"		"1"
-	}
-	
+	}	
 }

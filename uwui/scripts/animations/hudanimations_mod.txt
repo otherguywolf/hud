@@ -12,19 +12,19 @@ event CompetitiveGame_RestoreChatWindow
 
 event HudTournament_MoveChatWindow
 {
-	StopEvent CompetitiveGame_LowerChatWindow 0
-	StopEvent CompetitiveGame_RestoreChatWindow 0
+//
 }
 
 event HudTournament_MoveTimerDown
 {
 	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 0 0
+	SetVisible CountdownBG 0 0
 }
 
-//Disabled
 event HudMatchStatus_ShowMatchStartDoors
 {
-
+//
 }
 
 //Koth Countdown Timer
@@ -52,16 +52,12 @@ event HudTournament_ShowTimerDefault
 
 event HudTournament_ShowRoundSign
 {
-	SetVisible RoundSignModel 0 0 //this is the round label from the stock hud
-//	RunEventChild RoundSignModel HudTournament_PlaySignAnim 0
-	SetVisible RoundSignModel 0 0
+	SetVisible RoundSignModel 0 0 
 }
 
 event HudTournament_PlaySignAnim
 {
-//	StopEvent HudTournament_PlaySignAnim
-//	FireCommand 0 "animation intro" //this is related to the above
-//	FireCommand 5 "animation outro"
+//
 }
 
 event TeamStatus_PlayerDead
@@ -75,5 +71,5 @@ event TeamStatus_PlayerAlive
 {
 	SetVisible DeathPanel  0 0
 	SetVisible SkullPanel  0 0
-	SetVisible respawntime 0 0.2
+	SetVisible respawntime 0 0
 }

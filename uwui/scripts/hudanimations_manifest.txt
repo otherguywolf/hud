@@ -1,11 +1,12 @@
 hudanimations_manifest
 {
 	"file"		"scripts/hudanimations.txt" //HL2 Animations
+	
 	"file"		"scripts/animations/hudanimations_uwui.txt" //Hud Animations
 	
 	"file"		"scripts/animations/hudanimations_mod.txt" //My Modifications To Some Animations
 	
 	"file"		"scripts/animations/hudanimations_healthammodefault.txt" //More Hud Animations
 	
-	"file" "scripts/hudanimations_tf.txt" //Stock Hud Animations
+	"file"		"scripts/hudanimations_tf.txt" //Stock Hud Animations
 }

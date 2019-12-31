@@ -15,7 +15,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"cs-1.3"
+			"xpos"			"cs-1"
 			"ypos"			"3"
 			"zpos"			"3"
 			"wide"			"30"
@@ -24,7 +24,7 @@
 			"enabled"		"1"
 			"font"			"RobotoMedium20"
 			"labelText"		"%blue_alive%"
-			"textAlignment"	"east"
+			"textAlignment"	"center"
 			"fgcolor"		"Blue"
 		}	
 	}
@@ -39,8 +39,8 @@
 		"zpos"			"1"
 		"wide"			"8"
 		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor"		"White"
 	}
 
@@ -59,7 +59,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"cs0.3"
+			"xpos"			"cs0"
 			"ypos"			"3"
 			"zpos"			"3"
 			"wide"			"30"
@@ -68,11 +68,11 @@
 			"enabled"		"1"
 			"font"			"RobotoMedium20"
 			"labelText"		"%red_alive%"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"fgcolor"		"Red"
 		}			
 	}
-		"background"
+	"background"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"background"

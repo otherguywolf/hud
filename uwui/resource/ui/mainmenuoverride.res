@@ -204,20 +204,15 @@
 		"enabled"		"0"
 	}
 
+
 	"RankModelPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-
-		"zpos"			"-51"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"1"
-
+		"enabled"		"0"
 		"matchgroup"	"MatchGroup_Casual_12v12"
 
 		"show_progress"	"0"
@@ -231,25 +226,6 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"f2"
-			"tall"			"f2"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_options"
-
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-			"keyboardinputenabled" "0"
-		}		
 	}
 
 	"RankTooltipPanel"

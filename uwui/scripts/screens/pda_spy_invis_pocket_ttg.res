@@ -17,4 +17,3 @@
 		"bg_image"	"ttg_watch_BG"
 	}	
 }
-
