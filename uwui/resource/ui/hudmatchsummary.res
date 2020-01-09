@@ -118,15 +118,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"StatsBgPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
-		"PaintBackgroundType"	"1"
-		"bgcolor_override" "0 0 0 250"
+		"enabled"		"0"
 	}
 
 	"DrawingPanel"
@@ -205,19 +200,10 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"StatsAndMedalsShadow"
-				"font"			"MatchSummaryStatsAndMedals"
-				"labelText"		"#TF_StatsAndMedals"
-				"fgcolor"		"Black"
-				"textAlignment"		"center"
-				"xpos"			"1"
-				"ypos"			"1"
-				"zpos"			"3"
-				"wide"			"200"
-				"tall"			"15"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
 			}
 		}
 
