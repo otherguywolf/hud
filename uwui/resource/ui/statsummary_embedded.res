@@ -1104,7 +1104,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"Gray30soliOAd"
+			"fillcolor"		"Gray30solid"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel6A"
