@@ -7,7 +7,7 @@ credit to the [original creator](https://www.teamfortress.tv/user/uwu) of uwui<b
 credit to [SohamG](https://github.com/SohamG) for some fixes and party chat<br/>
 credit to [JarateKing](https://www.teamfortress.tv/user/JarateKing) for some killfeed things<br/>
 <br/>
-# Images
+# Images (Horribly out of date)
 ![Arena Mode Team Panel](https://raw.githubusercontent.com/otherguywolf/hud/master/images/arena_teampanel.jpeg)<br/>
 ![Arena Mode Win Panel](https://raw.githubusercontent.com/otherguywolf/hud/master/images/arena_winpanel.jpeg)<br/>
 ![Payload Panels](https://raw.githubusercontent.com/otherguywolf/hud/master/images/cartpanel.jpeg)<br/>
