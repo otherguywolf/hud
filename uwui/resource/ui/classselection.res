@@ -1593,7 +1593,6 @@
 		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"1"	[$WIN32]
-		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 1"
 		"Default"			"0"
@@ -1650,7 +1649,6 @@
 		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"2"	[$WIN32]
-		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 3"
 		"Default"			"0"
@@ -1707,7 +1705,6 @@
 		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"3"	[$WIN32]
-		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 7"
 		"Default"			"0"
@@ -1782,7 +1779,6 @@
 		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"4"	[$WIN32]
-		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 4"
 		"Default"			"0"
@@ -1838,7 +1834,6 @@
 		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"5"	[$WIN32]
-		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 6"
 		"Default"			"0"
@@ -1894,7 +1889,6 @@
 		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"6"	[$WIN32]
-		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 9"
 		"Default"			"0"
@@ -1969,7 +1963,6 @@
 		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"7"	[$WIN32]
-		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 5"
 		"Default"			"0"
@@ -2025,7 +2018,6 @@
 		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"8"	[$WIN32]
-		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 2"
 		"Default"			"0"
@@ -2081,7 +2073,6 @@
 		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"9"	[$WIN32]
-		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 8"
 		"Default"			"0"
@@ -2221,51 +2212,6 @@
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
 	}		
-	
-	"Footer" [$X360]
-	{
-		"alpha"				"0"
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"zpos"				"6"
-		"tall"				"0"
-		"button_separator"	"10"
-		"button_separator_lodef"	"5"
-		"buttongap"			"50"
-		"buttongap_hidef"		"35"
-		"buttongap_lodef"			"18"
-		"textadjust"		"3"
-		"textadjust_lodef"		"0"
-		"buttonoffsety"		"20"
-		"buttonoffsety_hidef"		"0"
-		"buttonoffsety_lodef"		"18"
-		"center"			"0"
-		"button_pin_right_lodef"	"55"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite" 	
-		
-		"button"
-		{
-			"name"		"cancel"
-			"text"		"#GameUI_Cancel"
-			"icon"		"#GameUI_Icons_B_BUTTON"	
-		}
-		
-		"button"
-		{
-			"name"		"nextprev"
-			"text"		"#TF_NextPrev"
-			"icon"		"#GameUI_Icons_DPAD"	
-		}				
-		
-		"button"
-		{
-			"name"		"select"
-			"text"		"#GameUI_Select"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
-		}
-	}
 	
 	"localPlayerBG"
 	{

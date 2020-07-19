@@ -276,7 +276,6 @@
 		"fieldName"		"OutlineImage"
 		"xpos"			"c-50"
 		"ypos"			"r127"	[$WIN32]
-		"ypos"			"r148"	[$X360]
 		"zpos"			"9"
 		"wide"			"100"
 		"tall"			"50"

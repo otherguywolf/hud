@@ -17,7 +17,7 @@
 	ChatInputLine
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName" 		ChatInputLine
+		"fieldName" 		"ChatInputLine"
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"2"

@@ -47,18 +47,14 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
 		"font"			"HudFontMediumBigBold" [$WIN32]
-		"font"			"HudFontMediumBold" [$X360]
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center" [$WIN32]
-		"textAlignment"		"west" [$X360]
 		"xpos"			"5" [$WIN32]
-		"xpos"			"60" [$X360]
 		"ypos"			"92"
 		"ypos_hidef"		"425"
 		"ypos_lodef"		"425"
 		"zpos"			"50"
 		"wide"			"350" [$WIN32]
-		"wide"			"600" [$X360]
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -122,7 +118,6 @@
 				"ypos_lodef"			"49"
 				"zpos"			"5"
 				"wide"			"150" [!$X360]
-				"wide"			"170" [$X360]
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -1688,7 +1683,6 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"	[$WIN32]
-			"visible"		"1"	[$X360]
 			"enabled"		"1"
 		}	
 		"OverallRecord1Label"
@@ -2476,51 +2470,5 @@
 		"enabled"		"0"
 		"labelText"		"#TF_Close"
 		"Command"		"vguicancel"
-	}
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"bgcolor"			"TanDarker"
-		"paintbackground"	"1"
-		"tall"				"100"
-		"tall_lodef"				"60"
-		"center"			"1"
-		"buttonoffsety"		"20"
-		"buttonoffsety_lodef"		"5"
-		"button_separator"	"10"
-		"button_separator_lodef"	"2"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"buttongap"			"50"
-		"textadjust"		"3"
-		"textadjust_lodef"		"0"
-		"zpos"				"6"
-		"fgcolor"			"HudOffWhite" 	
-		
-		"button"
-		{
-			"name"		"back"
-			"text"		"#GameUI_Back"
-			"icon"		"#GameUI_Icons_B_BUTTON"	
-		}
-		
-		"button"
-		{
-			"name"		"nexttip"
-			"text"		"#TF_NextTip_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
-		}
-	}		
-	"TitleBanner" [$X360]
-	{
-		"ControlName"	"ImagePanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"128"
-		"image"			"menu_header"
-		"visible_lodef"	"0"
-		"enabled_lodef"	"0"
 	}
 }

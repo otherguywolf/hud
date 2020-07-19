@@ -527,26 +527,6 @@ Scheme
 				"scaley_lodef"		"0.75"
 			}
 		}
-		GameUIButtonsSmall
-		{
-			"1"	[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scaley"	"0.5"
-			}
-		}
-		GameUIButtonsSmallest
-		{
-			"1"	[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.4"
-				"scaley"	"0.4"
-			}
-		}
 		"GameUIButtonText"
 		{
 			"1"
@@ -631,7 +611,6 @@ Scheme
 			{
 				"name"		"Roboto Bold"
 				"tall"		"14"	[$WIN32]
-				"tall"		"21"	[$X360]
 				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"600 767"
@@ -675,13 +654,6 @@ Scheme
 				"weight"	"400"
 				"outline"	"1"
 				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-			"1"	[$X360]
-			{
-				"name"		"Tahoma"
-				"tall"		"18"
-				"weight"	"200"
-				"outline"	"1"
 			}
 		}		
 		TFTypeDeath

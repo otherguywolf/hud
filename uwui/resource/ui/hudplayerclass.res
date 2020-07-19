@@ -22,8 +22,6 @@
 		"xpos_minmode"	"9999"	[$WIN32]
 		"ypos"			"9999"	[$WIN32]
 		"ypos_minmode"	"9999"	[$WIN32]
-		"xpos"			"9999"	[$X360]
-		"ypos"			"9999"	[$X360]
 		"zpos"			"2"
 		"wide"			"75"
 		"wide_minmode"	"37"
@@ -40,8 +38,6 @@
 		"fieldName"		"PlayerStatusSpyImage"
 		"xpos"			"3"		[$WIN32]
 		"ypos"			"r67"	[$WIN32]
-		"xpos"			"35"	[$X360]
-		"ypos"			"r89"	[$X360]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"55"
@@ -58,8 +54,6 @@
 		"fieldName"		"PlayerStatusSpyOutlineImage"
 		"xpos"			"3"		[$WIN32]
 		"ypos"			"r67"	[$WIN32]
-		"xpos"			"35"	[$X360]
-		"ypos"			"r89"	[$X360]
 		"zpos"			"7"
 		"wide"			"55"
 		"tall"			"55"
@@ -74,8 +68,6 @@
 		"fieldName"		"PlayerStatusClassImageBG"
 		"xpos"			"9999"		[$WIN32]
 		"ypos"			"9999"	[$WIN32]
-		"xpos"			"9999"	[$X360]
-		"ypos"			"9999"	[$X360]
 		"zpos"			"1"		
 		"wide"			"100"
 		"tall"			"50"

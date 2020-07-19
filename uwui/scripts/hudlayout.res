@@ -275,13 +275,11 @@
 		"LargeBoxWide" "110"
 		"LargeBoxTall" "77"
 		"BoxGap" "4"	[$WIN32]
-		"BoxGap" "4"	[$X360]
 		"SelectionNumberXPos" "12"
 		"SelectionNumberYPos" "4"
 		"IconXPos" "8"
 		"IconYPos" "0"
 		"TextYPos" "70"		[$WIN32]
-		"TextYPos" "65"		[$X360]
 		"ErrorYPos" "48"
 		"TextColor" "SelectionTextFg"
 		"MaxSlots"	"6"
@@ -571,7 +569,6 @@
 		"visible" "0"
 		"enabled" "0"
 		"xpos"	 "r640"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
 		"wide"	 "640"
 		"tall"	 "330"
 		"history_gap" "55"
@@ -677,8 +674,6 @@
 		"enabled" "1"
 		"xpos" "r42" 	[$WIN32]
 		"ypos" "355"	[$WIN32]
-		"xpos" "r75"	[$X360]
-		"ypos" "375"	[$X360]
 		"wide" "32"
 		"tall" "32"
 	}
@@ -690,8 +685,6 @@
 		"enabled" "1"
 		"xpos" "r145" [$WIN32]
 		"ypos" "0" [$WIN32]
-		"xpos" "r210" [$X360]
-		"ypos" "0" [$X360]
 		"wide" "145"
 		"tall" "400"
 

@@ -159,7 +159,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
 		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"center"
@@ -176,10 +175,7 @@
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"xpos"			"5"		[$WIN32]
 		"ypos"			"10"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"40"	[$X360]
 		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -198,16 +194,12 @@
 		"fieldName"		"SwitchCamModeLabel"
 		"xpos"			"80"	[$WIN32]
 		"ypos"			"10"	[$WIN32]
-		"xpos"			"128"	[$X360]
-		"ypos"			"40"	[$X360]		
 		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]		
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_SwitchCamMode"
 		"textAlignment"		"west"
@@ -220,16 +212,12 @@
 		"fieldName"		"CycleTargetFwdKeyLabel"
 		"xpos"			"5"	[$WIN32]
 		"ypos"			"20"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"50"	[$X360]		
 		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"east"
@@ -242,16 +230,12 @@
 		"fieldName"		"CycleTargetFwdLabel"
 		"xpos"			"80"	[$WIN32]
 		"ypos"			"20"	[$WIN32]
-		"xpos"			"128"	[$X360]
-		"ypos"			"50"	[$X360]		
 		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_CycleTargetFwd"
 		"textAlignment"		"west"
@@ -264,16 +248,12 @@
 		"fieldName"		"CycleTargetRevKeyLabel"
 		"xpos"			"5"	[$WIN32]
 		"ypos"			"30"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"60"	[$X360]		
 		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]		
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"east"
@@ -286,16 +266,12 @@
 		"fieldName"		"CycleTargetRevLabel"
 		"xpos"			"80"	[$WIN32]
 		"ypos"			"30"	[$WIN32]
-		"xpos"			"128"	[$X360]
-		"ypos"			"60"	[$X360]		
 		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_CycleTargetRev"
 		"textAlignment"		"west"
@@ -325,7 +301,6 @@
 		"enabled"		"1"
 		"labelText"		"%tip%"
 		"textAlignment"		"center"	[$WIN32]
-		"textAlignment"		"north-west"	[$X360]
 		"font"			"SpectatorKeyHints"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"DefaultVerySmall"

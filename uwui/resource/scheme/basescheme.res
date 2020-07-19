@@ -274,8 +274,6 @@ Scheme
 		Frame.OutOfFocusBgColor			"TransparentBlack"
 		Frame.FocusTransitionEffectTime	"0.0"	[$WIN32] // time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.0"	[$WIN32] // time it takes for a window to fade in/out on open/close
-		Frame.FocusTransitionEffectTime	"0.15"	[$X360] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.15"	[$X360] // time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"Blank"
 		FrameGrip.Color2				"Blank"
@@ -638,7 +636,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"13"	[$WIN32]
-				"tall"		"23"	[$X360]
 				"weight"	"700"
 				"yres"	"600 767"
 			}
@@ -1027,26 +1024,6 @@ Scheme
 				"scaley_lodef"		"0.75"
 			}
 		}
-		GameUIButtonsSmall
-		{
-			"1"	[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scaley"	"0.5"
-			}
-		}
-		GameUIButtonsSmallest
-		{
-			"1"	[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.4"
-				"scaley"	"0.4"
-			}
-		}
 		GameUIButtonsSteamController
 		{
 			"1"
@@ -1168,7 +1145,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"15"	[$WIN32]
-				"tall"		"21"	[$X360]
 				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"600 767"
@@ -1212,13 +1188,6 @@ Scheme
 				"weight"	"400"
 				"outline"	"1"
 				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-			"1"	[$X360]
-			{
-				"name"		"Tahoma"
-				"tall"		"18"
-				"weight"	"200"
-				"outline"	"1"
 			}
 		}		
 		TFTypeDeath
