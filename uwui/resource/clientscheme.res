@@ -16,7 +16,7 @@
 #base "scheme/basescheme.res"
 
 Scheme
-{	
+{
 	Fonts
 	{
 		"HeavyTest59"
@@ -68,7 +68,7 @@ Scheme
 		// UI buttons, custom font, (256x64)
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
 	}
-	
+
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	//
 	// specifies all the custom (non-system) font files that need to be loaded
@@ -89,7 +89,7 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"4" 
+		"4"
 		{
 			"font" "resource/TF2Secondary.ttf"
 			"name" "TF2 Secondary"
@@ -102,7 +102,7 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"5" 
+		"5"
 		{
 			"font" "resource/TF2Professor.ttf"
 			"name" "TF2 Professor"
@@ -114,8 +114,8 @@ Scheme
 			{
 				"range" "0x0000 0x00FF"
 			}
-		}	
-		"6" 
+		}
+		"6"
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
@@ -143,12 +143,12 @@ Scheme
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
-		"91" 
+		"91"
 		{
 			"font" "resource/fonts/AdobeBlank.ttf"
 			"name" "Adobe Blank"
 		}
-		"92" 
+		"92"
 		{
 			"font" "resource/fonts/Blank.ttf"
 			"name" "BlankSerif"
@@ -190,12 +190,12 @@ Scheme
 			"font" "resource/fonts/MediumNumbers.otf"
 			"name" "MediumNumbers"
 		}
-		"115" 
+		"115"
 		{
 			"font" "resource/fonts/LightNumbers.otf"
 			"name" "LightNumbers"
 		}
-		"116" 
+		"116"
 		{
 			"font" "resource/fonts/BoldNumbers.otf"
 			"name" "BoldNumbers"
@@ -216,12 +216,12 @@ Scheme
 			"font" "resource/fonts/Roboto-Medium.ttf"
 			"name" "Roboto Medium"
 		}
-		"123" 
+		"123"
 		{
 			"font" "resource/fonts/Roboto-Bold.ttf"
 			"name" "Roboto Bold"
 		}
-		"124" 
+		"124"
 		{
 			"font" "resource/fonts/Roboto-Black.ttf"
 			"name" "Roboto Black"

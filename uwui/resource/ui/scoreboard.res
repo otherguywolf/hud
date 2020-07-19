@@ -25,19 +25,19 @@
 		"killstreak_width"	"10"
 		"killstreak_image_width" "15"
 	}
-	
+
 	"RoundCounter"
 	{
 		"fieldName"		"RoundCounter"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"TopBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -51,13 +51,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"bgcolor_override"		"Gray30"
-		
+
 		"pin_to_sibling"		"MainBG"
 		"pin_corner_to_sibling"	"3"
 		"pin_to_sibling_corner"	"1"
-		
+
 		"mem"
 		{
 			"ControlName"		"EditablePanel"
@@ -71,17 +71,17 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"proportionaltoparent"	"1"
 			"bgcolor_override"		"Gray30Solid"
 		}
-		
+
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
-	
+
 	"MainBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -95,15 +95,15 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"bgcolor_override"		"Gray30"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
-	
+
 	"TestBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -117,10 +117,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"bgcolor_override"		"255 0 255 0"
 	}
-	
+
 	"BottomBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -134,13 +134,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"bgcolor_override"		"Gray30"
-		
+
 		"pin_to_sibling"		"MainBG"
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"3"
-		
+
 		"mem"
 		{
 			"ControlName"		"EditablePanel"
@@ -154,11 +154,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"proportionaltoparent"	"1"
 			"bgcolor_override"		"Gray30Solid"
 		}
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -181,11 +181,11 @@
 		"linegap"		"0"
 		"fgcolor"		"blue"
 		"show_columns"	"0"
-		
+
 		"pin_to_sibling"		"MainBG"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"0"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -208,7 +208,7 @@
 		"linegap"		"0"
 		"fgcolor"		"red"
 		"show_columns"	"0"
-		
+
 		"pin_to_sibling"		"MainBG"
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
@@ -217,8 +217,8 @@
  		{
  			"visible"		"0"
  		}
-	}	
-	
+	}
+
 	"BlueTeamName"
 	{
 		"ControlName"		"CExLabel"
@@ -235,17 +235,17 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"fgcolor"		"white"
-		
+
 		"auto_wide_tocontents"		"1"
 		"use_proportional_insets"	"1"
 		"textinsetx"			"3"
-		
+
 		"pin_to_sibling"		"TopBG"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"0"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -267,17 +267,17 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"fgcolor"		"Gray30"
-		
+
 		"use_proportional_insets"	"1"
 		"textinsetx"			"3"
 		"textinsety"			"1"
-		
+
 		"pin_to_sibling"		"BlueTeamName"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"0"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -299,17 +299,17 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"fgcolor"		"White"
-		
+
 		"auto_wide_tocontents"		"1"
 		"use_proportional_insets"	"1"
 		"textinsetx"			"3"
-		
+
 		"pin_to_sibling"		"TopBG"
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -331,23 +331,23 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"fgcolor"		"Gray30"
-		
+
 		"use_proportional_insets"	"1"
 		"textinsetx"			"3"
 		"textinsety"			"1"
-		
+
 		"pin_to_sibling"		"RedTeamName"
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
-	
+
 	"BlueTeamPlayerCount"
 	{
 		"ControlName"		"CExLabel"
@@ -363,21 +363,21 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"allcaps"		"1"
-		
+
 		"use_proportional_insets"	"1"
 		"textinsetx"			"3"
-		
+
 		"pin_to_sibling"		"TopBG"
 		"pin_corner_to_sibling"	"2"
 		"pin_to_sibling_corner"	"2"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
 		}
-	}	
+	}
 	"RedTeamPlayerCount"
 	{
 		"ControlName"		"CExLabel"
@@ -393,22 +393,22 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"allcaps"		"1"
-		
+
 		"use_proportional_insets"	"1"
 		"textinsetx"			"3"
-		
+
 		"pin_to_sibling"		"TopBG"
 		"pin_corner_to_sibling"	"3"
 		"pin_to_sibling_corner"	"3"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
-	
+
 	"BlueTeamScore"
 	{
 		"ControlName"		"CExLabel"
@@ -417,7 +417,7 @@
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"0"
-		"ypos"			"0" 
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"16"
@@ -425,17 +425,17 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"fgcolor"				"TeamBlueSolid"
 		"bgcolor_override"		"blank"
-		
+
 		"use_proportional_insets"	"1"
 		"textinsetx"				"3"
-		
+
 		"pin_to_sibling"		"BlueTeamName"
 		"pin_corner_to_sibling"	"2"
 		"pin_to_sibling_corner"	"3"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -449,7 +449,7 @@
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"0"
-		"ypos"			"0" 
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"16"
@@ -457,17 +457,17 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"fgcolor_override"				"Gray30"
-		
+
 		"use_proportional_insets"	"1"
 		"textinsetx"				"3"
 		"textinsety"				"1"
-		
+
 		"pin_to_sibling"		"BlueTeamScore"
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -481,7 +481,7 @@
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"0"
-		"ypos"			"0" 
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"16"
@@ -489,17 +489,17 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"fgcolor"				"TeamRedSolid"
 		"bgcolor_override"		"blank"
-		
+
 		"use_proportional_insets"	"1"
 		"textinsetx"				"3"
-		
+
 		"pin_to_sibling"		"RedTeamName"
 		"pin_corner_to_sibling"	"3"
 		"pin_to_sibling_corner"	"2"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -521,17 +521,17 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"fgcolor_override"				"Gray30"
-		
+
 		"use_proportional_insets"	"1"
 		"textinsetx"				"3"
 		"textinsety"				"1"
-		
+
 		"pin_to_sibling"		"RedTeamScore"
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -551,7 +551,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		//"border"		"TFThinLineBorder"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -593,7 +593,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -617,12 +617,12 @@
 		"enabled"		"1"
 		"fgcolor"		"white"
 		"centerwrap"	"0"
-		
+
 		"use_proportional_insets"	"1"
 		"textinsetx"				"10"
 		"auto_wide_tocontents"		"1"
 		"bgcolor_override"			"Gray30"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -643,13 +643,13 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		
+
 		if_mvm
 		{
 			"ypos"			"0"
 			"visible"		"1"
 		}
-	}							
+	}
 	"VerticalLine"
 	{
 		"ControlName"		"ImagePanel"
@@ -663,10 +663,10 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -688,22 +688,22 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"bgcolor_override"	"Gray30"
-		
+
 		"auto_wide_tocontents"	"1"
 		//"use_proportional_insets"	"1"
 		//"textinsetx"			"6"
-		
+
 		"pin_to_sibling"	"BottomBG"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
-		
+
 		if_mvm
 		{
 			"ypos"		"428"
 		}
-	}	
+	}
 	"SpectatorsInQueue"
 	{
 		"ControlName"		"CExLabel"
@@ -720,17 +720,17 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"bgcolor_override"	"blank"
-		
+
 		"auto_wide_tocontents"	"1"
 		"use_proportional_insets"	"1"
 		"textinsetx"			"6"
-		
+
 		"pin_to_sibling"	"Spectators"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -750,7 +750,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//"border"		"TFThinLineBorder"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -772,7 +772,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -796,14 +796,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"white"
-		
+
 		"use_proportional_insets"	"1"
 		"textinsetx"		"5"
-		
+
 		"pin_to_sibling"		"BottomBG"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"0"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -825,20 +825,20 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"use_proportional_insets"	"1"
 		"textinsetx"		"0"
-		
+
 		"pin_to_sibling"		"LabelServer"
 		"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"1"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
-	
+
 	"bg"
 	{
 		"ControlName"		"EditablePanel"
@@ -850,7 +850,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 	}
-	
+
 	"MapName"
 	{
 		"ControlName"	"CExLabel"
@@ -868,14 +868,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"White"
-		
+
 		"bgcolor_override"	"Gray30"
-		
+
 		"allcaps"		"1"
 		"auto_wide_tocontents"	"1"
 		"use_proportional_insets"	"1"
 		"textinsetx"		"8"
-		
+
 		"pin_to_sibling"		"bg"
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
@@ -898,10 +898,10 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"127 127 127 153"
 		"PaintBackgroundType"	"0"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -923,7 +923,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -942,12 +942,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		if_mvm
 		{
 			"visible"		"1"
 		}
-		
+
 		"KillsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -964,17 +964,17 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"fgcolor"			"white"
 			"bgcolor_override"	"Gray30"
-			
+
 			"use_proportional_insets"	"1"
 			"textinsetx"				"3"
-			
+
 			"pin_to_sibling"		"DeathsLabel"
 			"pin_corner_to_sibling"	"3"
 			"pin_to_sibling_corner"	"2"
-		}						
+		}
 		"DeathsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -991,17 +991,17 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"fgcolor"			"white"
 			"bgcolor_override"	"Gray30"
-			
+
 			"use_proportional_insets"	"1"
 			"textinsetx"				"3"
-			
+
 			"pin_to_sibling"		"AssistsLabel"
 			"pin_corner_to_sibling"	"3"
 			"pin_to_sibling_corner"	"2"
-		}						
+		}
 		"AssistsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1018,16 +1018,16 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
-			
+
+
 			"proportionaltoparent"	"1"
-			
+
 			"fgcolor"			"white"
 			"bgcolor_override"	"Gray30"
-			
+
 			"use_proportional_insets"	"1"
 			"textinsetx"				"3"
-			
+
 			//"pin_to_sibling"		"DeathsLabel"
 			//"pin_corner_to_sibling"	"2"
 			//"pin_to_sibling_corner"	"3"
@@ -1048,13 +1048,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"fgcolor"			"white"
 			"bgcolor_override"	"Gray30"
-			
+
 			"use_proportional_insets"	"1"
 			"textinsetx"				"3"
-			
+
 			"pin_to_sibling"		"AssistsLabel"
 			"pin_corner_to_sibling"	"2"
 			"pin_to_sibling_corner"	"3"
@@ -1075,13 +1075,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"fgcolor"			"white"
 			"bgcolor_override"	"Gray30"
-			
+
 			"use_proportional_insets"	"1"
 			"textinsetx"				"3"
-			
+
 			"pin_to_sibling"		"DamageLabel"
 			"pin_corner_to_sibling"	"2"
 			"pin_to_sibling_corner"	"3"
@@ -1102,16 +1102,16 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"fgcolor"			"white"
-			
+
 			"use_proportional_insets"	"1"
 			"textinsetx"				"3"
-			
+
 			"pin_to_sibling"		"KillsLabel"
 			"pin_corner_to_sibling"	"1"
 			"pin_to_sibling_corner"	"1"
-		}						
+		}
 		"d"
 		{
 			"ControlName"		"CExLabel"
@@ -1128,12 +1128,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"fgcolor"			"white"
-			
+
 			"use_proportional_insets"	"1"
 			"textinsetx"				"3"
-			
+
 			"pin_to_sibling"		"DeathsLabel"
 			"pin_corner_to_sibling"	"1"
 			"pin_to_sibling_corner"	"1"
@@ -1154,12 +1154,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"fgcolor"			"white"
-			
+
 			"use_proportional_insets"	"1"
 			"textinsetx"				"3"
-			
+
 			"pin_to_sibling"		"AssistsLabel"
 			"pin_corner_to_sibling"	"1"
 			"pin_to_sibling_corner"	"1"
@@ -1180,12 +1180,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"fgcolor"			"white"
-			
+
 			"use_proportional_insets"	"1"
 			"textinsetx"				"3"
-			
+
 			"pin_to_sibling"		"DamageLabel"
 			"pin_corner_to_sibling"	"1"
 			"pin_to_sibling_corner"	"1"
@@ -1206,22 +1206,17 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"fgcolor"			"white"
-			
+
 			"use_proportional_insets"	"1"
 			"textinsetx"				"3"
-			
+
 			"pin_to_sibling"		"HealingLabel"
 			"pin_corner_to_sibling"	"1"
 			"pin_to_sibling_corner"	"1"
 		}
-		
-		
-		
-		
-		
-		
+
 		"Kills"
 		{
 			"ControlName"		"CExLabel"
@@ -1238,7 +1233,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		}
 		"Deaths"
 		{
 			"ControlName"		"CExLabel"
@@ -1306,7 +1301,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}													
+		}
 		"GameType"
 		{
 			"ControlName"	"CExLabel"
@@ -1341,7 +1336,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		}
 		"CapturesLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1358,7 +1353,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		}
 		"DefensesLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1375,7 +1370,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		}
 		"DominationLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1392,7 +1387,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		}
 		"RevengeLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1409,7 +1404,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		}
 		"Captures"
 		{
 			"ControlName"		"CExLabel"
@@ -1426,7 +1421,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		}
 		"Defenses"
 		{
 			"ControlName"		"CExLabel"
@@ -1443,7 +1438,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		}
 		"Domination"
 		{
 			"ControlName"		"CExLabel"
@@ -1460,7 +1455,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		}
 		"Revenge"
 		{
 			"ControlName"		"CExLabel"
@@ -1494,7 +1489,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		}
 		"TeleportsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1511,7 +1506,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		}
 		"HeadshotsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1528,7 +1523,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		}
 		"Healing"
 		{
 			"ControlName"		"CExLabel"
@@ -1545,7 +1540,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		}
 		"Invuln"
 		{
 			"ControlName"		"CExLabel"
@@ -1562,7 +1557,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		}
 		"Teleports"
 		{
 			"ControlName"		"CExLabel"
@@ -1579,7 +1574,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		}
 		"Headshots"
 		{
 			"ControlName"		"CExLabel"
@@ -1596,7 +1591,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}						
+		}
 		"BackstabsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1630,7 +1625,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-		}		
+		}
 		"BonusLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1711,17 +1706,17 @@
 		"tall"				"480"
 		"visible"			"0"
 		"enabled"			"1"
-		
+
 		"verbose"			"1"
-		
+
 		if_mvm
 		{
 			"visible"		"1"
 		}
 	}
-	
-	
-	
+
+
+
 	"ButtonLegendBG"		[$X360]
 	{
 		"ControlName"	"ImagePanel"
@@ -1735,7 +1730,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
 	}
@@ -1749,7 +1744,7 @@
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
-										
+
 		"SelectHintIcon"
 		{
 			"ControlName"	"CExLabel"
@@ -1769,7 +1764,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
+
 		"SelectHintLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1789,7 +1784,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
+
 		"GamerCardIcon"
 		{
 			"ControlName"	"CExLabel"
@@ -1809,7 +1804,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
+
 		"GamerCardLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1829,7 +1824,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
+
 		"ReputationIcon"
 		{
 			"ControlName"	"CExLabel"
@@ -1849,7 +1844,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
+
 		"ReputationLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1870,9 +1865,9 @@
 			"brighttext"	"0"
 		}
 	}
-	
-	
-	
+
+
+
 	"BlueScoreBG"
 	{
 		"alpha"			"0"
@@ -1888,7 +1883,7 @@
 		"enabled"		"0"
 		"image"			"../hud/score_panel_blue_bg_solid"
 		"scaleImage"		"1"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -1927,7 +1922,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"color_outline"	"52 48 45 255"
 	}
 	"BlueLeaderAvatarBG"
@@ -1999,7 +1994,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"color_outline"	"52 48 45 255"
 	}
 	"RedLeaderAvatarBG"
@@ -2016,7 +2011,7 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"0 0 0 0"
 	}
-	
+
 	"BlueTeamLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -2033,7 +2028,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -2055,13 +2050,13 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
-	
+
 	"LocalPlayerDuelStatsPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -2075,7 +2070,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -2126,7 +2121,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-	
+
 			"AvatarBGPanel"
 			{
 				"ControlName"	"EditablePanel"
@@ -2152,11 +2147,11 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			""
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"color_outline"	"52 48 45 255"
 			}
 			"AvatarTextLabel"
-			{	
+			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
 				"fgcolor"		"TanLight"
@@ -2205,7 +2200,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-	
+
 			"AvatarBGPanel"
 			{
 				"ControlName"	"EditablePanel"
@@ -2231,11 +2226,11 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			""
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"color_outline"	"52 48 45 255"
 			}
 			"AvatarTextLabel"
-			{	
+			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
 				"fgcolor"		"TanLight"
@@ -2272,7 +2267,7 @@
 			}
 		}
 	}
-	
+
 	"ClassImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -2285,8 +2280,8 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/class_scoutred"
-		"scaleImage"		"1"	
-		
+		"scaleImage"		"1"
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -2296,17 +2291,17 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
+
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"10"		
+		"zpos"			"10"
 		"wide"			"0"
 		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		
+
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
@@ -2317,7 +2312,7 @@
 		{
 			"visible"		"0"
 		}
-				
+
 		"model"
 		{
 			"force_pos"	"1"
@@ -2332,7 +2327,7 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
+
 			"modelname"		""
 		}
 
@@ -2433,9 +2428,9 @@
 			}
 		}
 	}
-	
-	
-	
+
+
+
 	"ServerLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -2451,7 +2446,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		
+
 		if_mvm
 		{
 			"ypos"			"0"
