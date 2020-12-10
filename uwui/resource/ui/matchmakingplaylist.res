@@ -10,7 +10,6 @@
 		"tall"			"f0"
 		"wide"			"f0"
 		"bgcolor_override"	"Gray30"
-
 	}
 	
 	"EventEntry"
@@ -32,7 +31,7 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CasualEntry"
-		"xpos"			"32"
+		"xpos"			"cs-3.0375"
 		"ypos"			"7"
 		"zpos"			"3"
 		"tall"			"60"
@@ -50,6 +49,7 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CompetitiveEntry"
+		"xpos"			"cs-2.0225"
 		"xpos"			"164"
 		"ypos"			"7"
 		"zpos"			"3"
@@ -68,7 +68,7 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"MvMEntry"
-		"xpos"			"296"
+		"xpos"			"cs-1.0075"
 		"ypos"			"7"
 		"zpos"			"3"
 		"tall"			"60"
@@ -86,7 +86,7 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"ServerBrowserEntry"
-		"xpos"			"428"
+		"xpos"			"cs0.0075"
 		"ypos"			"7"
 		"zpos"			"3"
 		"tall"			"60"
@@ -103,7 +103,7 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"TrainingEntry"
-		"xpos"			"560"
+		"xpos"			"cs1.0225"
 		"ypos"			"7"
 		"zpos"			"3"
 		"tall"			"60"
@@ -125,7 +125,7 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CreateServerEntry"
-		"xpos"			"692"
+		"xpos"			"cs2.0375"
 		"ypos"			"7"
 		"zpos"			"3"
 		"tall"			"60"
@@ -140,33 +140,9 @@
 
 	"ScrollBar"
 	{
-		"ControlName"	"ScrollBar"
-		"FieldName"		"ScrollBar"
-		"xpos"			"rs1-1"
-		"ypos"			"0"
-		"tall"			"f0"
-		"wide"			"5" // This gets slammed from client schme.  GG.
-		"zpos"			"1000"
-		"nobuttons"		"1"
-		"proportionaltoparent"	"1"
-
-		"Slider"
-		{
-			"fgcolor_override"	"TanDark"
-		}
-		
-		"UpButton"
-		{
-			"ControlName"	"Button"
-			"FieldName"		"UpButton"
-			"visible"		"0"
-		}
-		
-		"DownButton"
-		{
-			"ControlName"	"Button"
-			"FieldName"		"DownButton"
-			"visible"		"0"
-		}
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 }

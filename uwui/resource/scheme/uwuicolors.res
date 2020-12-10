@@ -91,7 +91,7 @@ Scheme
 		"QuestGold"											"208 147 75 255"
 		
 		"White"												"255 255 255 255"
-		"WhiteS"											"255 255 255 255"
+		//"WhiteS"											"255 255 255 255" //unused
 		"Black"												"15 15 15 255"
 		"TransparentBlack"									"0 0 0 0"
 		"TransparentLightBlack"								"15 15 15 90"
@@ -291,7 +291,7 @@ Scheme
 		"MercenaryDark"										"50 71 142 255"
 		
 	//Commando	
-		"ItemRarityMythical"								"136 71 255 255"		
+		"ItemRarityMythical"								"136 71 255 255"	
 		"CommandoDim"										"99 68 169 255"
 		"CommandoDark"										"83 57 142 255"
 		
@@ -450,7 +450,7 @@ Scheme
 		ListPanel.EmptyListInfoTextColor					"White"
 
 		Menu.TextColor										"white"
-		Menu.BgColor										"TransparentBlack"
+		Menu.BgColor										"Gray30"
 		Menu.ArmedTextColor									"accentM1"
 		Menu.ArmedBgColor									"white"
 		Menu.TextInset										"6"

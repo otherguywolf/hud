@@ -1,3 +1,4 @@
+#base "./dev.res"
 "Resource/UI/MainMenuOverride.res"
 {
 	"CartBlue"

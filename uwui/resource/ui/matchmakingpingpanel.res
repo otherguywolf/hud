@@ -9,7 +9,7 @@
 		"ypos"			"10"
 		"zpos"			"1001"
 		"wide"			"300"
-		"tall"			"f34"
+		"tall"			"f4"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
@@ -36,7 +36,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"13"
+		"xpos"		"cs-0.25"
 		"ypos"		"20"
 		"zpos"		"99"
 		"wide"		"f0"
@@ -45,7 +45,7 @@
 		"labeltext"		"#TF_MM_OpenSettings"
 		"textAlignment"	"west"
 		"font"			"HudFontMediumBold"
-		"fgcolor_override"	"TanDark"
+		"fgcolor"	"white"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -85,7 +85,7 @@
 
 		"editable"		"0"
 		"bgcolor_override"	"0 0 0 255"
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor"	"white"
 		"disabledFgColor_override" "235 226 202 255"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
@@ -151,7 +151,7 @@
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
-		"fgcolor_override"		"TanDark"
+		"fgcolor"	"white"
 	}
 
 	"CustomPingCheckButton"
@@ -211,7 +211,7 @@
 		"textAlignment"	"north-west"
 		"font"			"HudFontSmallest"
 		"wrap"		"1"
-		"fgcolor"		"117 107 94 255"
+		"fgcolor"	"white"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"

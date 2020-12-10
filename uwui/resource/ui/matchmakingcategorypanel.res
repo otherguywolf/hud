@@ -41,7 +41,7 @@
 			"mouseinputenabled"	"0"
 		
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"Gray15Solid" //0 0 0 255
+			"bgcolor_override"	"Gray15Solid"
 		}
 
 		"BGImage"
@@ -51,11 +51,11 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"130" //o4
+			"wide"			"130"
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"scaleImage"	"0" //1	
+			"scaleImage"	"0"	
 			"proportionaltoparent"	"1"
 		}
 
@@ -66,15 +66,15 @@
 			"xpos"			"0"
 			"ypos"			"rs1"
 			"zpos"			"100"
-			"wide"			"40" //f0
-			"tall"			"f0" //9
+			"wide"			"40"
+			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
 			"actionsignallevel"	"2"
 			"command"		"toggle_collapse"
-			"labeltext"		"" //#TF_Casual_ViewMaps
+			"labeltext"		""
 			"textAlignment"	"west"
-			"font"	"RobotoMedium8" //MMenuPlayListDesc
+			"font"	"RobotoMedium8"
 			"textinsetx"	"40"
 
 			"stay_armed_on_click"	"1"
@@ -83,8 +83,7 @@
 			"defaultBgColor_override"	"Gray30"
 
 			"border_armed"		"NoBorder"
-			"armedBgColor_override"		"Gray30Mid" //LightOrange
-		//	"selectedBGColor_override" 	"Orange"
+			"armedBgColor_override"		"Gray30Mid"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -98,10 +97,10 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5" //6
+				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"20" //o1
+				"wide"			"20"
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
@@ -115,15 +114,10 @@
 		{
 			"fieldName"			"Shade"
 			"ControlName"		"EditablePanel"
-			"xpos"				"cs-0.5"
-			"ypos"				"0"
-			"zpos"				"0"
-			"wide"				"0" //f0
-			"tall"				"0" //57
-			"mouseinputenabled"	"0"
-
-			"proportionaltoparent"	"1"
-			"bgcolor_override"	"0 0 0 0"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 
 		"Checkbutton"
@@ -131,7 +125,7 @@
 			"ControlName"		"CExCheckButton"
 			"fieldName"		"Checkbutton"
 			"xpos"		"r27"
-			"ypos"		"cs-0.5" //-1
+			"ypos"		"cs-0.5"
 			"zpos"		"3"
 			"wide"		"25"
 			"tall"		"20"
@@ -148,7 +142,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"Title"
 			"xpos"			"rs1-24"
-			"ypos"			"cs-0.5" //2
+			"ypos"			"cs-0.5"
 			"zpos"			"3"
 			"wide"			"200"
 			"tall"			"15"
@@ -157,7 +151,7 @@
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"RobotoMedium10" //HudFontSmallestBold
+			"font"			"RobotoMedium10"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -172,71 +166,30 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleShadow"
-			"xpos"			"rs1-23"
-			"ypos"			"3"
-			"zpos"			"2"
-			"wide"			"200"
-			"tall"			"15"
-			"visible"		"0" //1
-			"enabled"		"1"
-			"labelText"		"%title_token%"
-			"textinsetx"	"5"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"east"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"proportionaltoparent" "1"
-			"mouseinputenabled"	"0"
-
-			"fgcolor_override"		"Black"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 
 		"DescLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabel"
-			"font"			"MMenuPlayListDesc"
-			"labelText"		"%desc_token%"
-			"textAlignment"	"north-west"
-			"xpos"			"rs1-5"
-			"ypos"			"18"
-			"zpos"			"2"
-			"wide"			"120"
-			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0" //1
-			"enabled"		"1"
-
-			"wrap"			"1"
-			"fgcolor_override" "TanLight"
-			"proportionaltoparent" "1"
-			"mouseinputenabled"	"0"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 
 		"DescLabelShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabelShadow"
-			"font"			"MMenuPlayListDesc"
-			"labelText"		"%desc_token%"
-			"textAlignment"	"north-west"
-			"xpos"			"rs1-4"
-			"ypos"			"19"
-			"zpos"			"1"
-			"wide"			"120"
-			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0" //1
-			"enabled"		"1"
-
-			"wrap"			"1"
-			"fgcolor_override" "Black"
-			"proportionaltoparent" "1"
-			"mouseinputenabled"	"0"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 	}
 
@@ -244,16 +197,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlaylistBGPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"p1.17-2"
-		"zpos"			"1"
-		"wide"			"p1.5"
-		"tall"			"1000"
-		"visible"		"0" //1
-		"PaintBackgroundType"	"2"
-		"border"		"InnerShadowBorder"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"MapsContainer"

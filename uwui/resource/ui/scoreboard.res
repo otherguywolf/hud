@@ -87,8 +87,6 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MainBG"
 		"xpos"			"cs-0.5"
-		//"ypos"			"cs-0.5+90"
-		//"ypos_minmode"	"cs-0.5+120"
 		"zpos"			"-1"
 		"wide"			"499"
 		"autoResize"	"0"

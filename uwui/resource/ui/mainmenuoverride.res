@@ -12,8 +12,6 @@
 		"wide"			"f0"
 		"tall"			"f0"
 
-//		"bgcolor_override"	"0 0 0 240"
-
 		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"http://www.teamfortress.com/"
 
@@ -153,7 +151,6 @@
 				"particle_xpos"										"c0"
 				"particle_ypos"										"c0"
 				"particle_scale"									"1"
-
 				if_christmas
 				{
 					"particlename"										"env_snow_stormfront_001"
@@ -209,10 +206,10 @@
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"cs-0.5"
-		"ypos"			"0"
+		"ypos"			"24"
 		"zpos"			"-200"
 		"wide"			"o1.6"
-		"tall"			"f0"
+		"tall"			"f0-24"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
@@ -323,12 +320,20 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"0"
+		"ypos"			"1"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
+
+		"bgcolor_override"	"Gray30"
+		"pin_to_sibling"		"ServerBrowserButton"
+		"pin_corner_to_sibling"	"2"
+		"pin_to_sibling_corner"	"0"
 	}
 
 	"NoGCMessage"
@@ -346,7 +351,7 @@
 		"textinsetx"	"7"
 		"fgcolor"		"white"
 		"bgcolor_override"	"Gray30"
-		"pin_to_sibling"		"Title"
+		"pin_to_sibling"		"ServerBrowserButton"
 		"pin_corner_to_sibling"	"2"
 		"pin_to_sibling_corner"	"0"
 	}
@@ -1288,7 +1293,7 @@
 			"proportionaltoparent"	"1"
 
 			"columns_count"	"1"
-			"inset_x"		"0"
+			"inset_x"		"2"
 			"inset_y"		"0"
 			"row_gap"		"5"
 			"column_gap"	"10"
@@ -1296,8 +1301,8 @@
 
 			"friendpanel_kv"
 			{
-				"wide"		"90"
-				"tall"		"16"
+				"wide"		"96"
+				"tall"		"15"
 			}
 
 			"ScrollBar"
@@ -1780,7 +1785,7 @@
 		"zpos"			"-50"
 		"wide"			"f0"
 		"tall"			"24"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 
 		"bgcolor_override"	"Gray30Solid"
@@ -1791,25 +1796,17 @@
 		"ControlName"	"CExLabel"
 		"fieldname"		"Title"
 		"xpos"			"0"
-		"ypos"			"1"
-		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"24"
+		"ypos"			"rs1"
+		"zpos"			"3"
+		"auto_wide_tocontents" "1"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"ProductBold10"
-		"labelText"		"uwui"
-		"fgcolor"		"white"
-
-		"bgcolor_override"	"Gray30"
-
-		"proportionaltoparent"		"1"
-		"use_proportional_insets"	"1"
-		"textinsetx"				"7"
-
-		"pin_to_sibling"		"ServerBrowserButton"
-		"pin_corner_to_sibling"	"2"
-		"pin_to_sibling_corner"	"0"
+		"labelText"		"uwui v3 - autumn"
+		"fgcolor"		"255 255 255 15"
+		"textinsetx"	"5"
+		"use_proportional_insets" "1"
 	}
 
 	"ServerBrowserButton"

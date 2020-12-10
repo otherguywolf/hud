@@ -44,15 +44,15 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"-8"
+		"xpos"			"rs1+18.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"10000"
-		"wide"			"24"
+		"auto_wide_tocontents"		"1"
 		"tall"			"70"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
-		"labelText"		"<"
+		"labelText"		">"
 		"textAlignment"	"center"
 		"font"			"HudFontMediumSmall"
 

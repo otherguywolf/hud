@@ -31,8 +31,8 @@
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
 
-		"itemcountcolor"			"200 80 60 255"
-		"itemcountcolor_noitems"	"117 107 94 255"
+		"itemcountcolor"			"white"
+		"itemcountcolor_noitems"	"white"
 	}
 	
 	"scout"
@@ -263,7 +263,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
 	
-		"ShowBackpackButton"
+	"ShowBackpackButton"
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowBackpackButton"
@@ -293,7 +293,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowBackpackLabel"
 		"font"			"HudFontSmallestBold"
-		"labelText"		"#BackpackTitle"
+		"labelText"		"Backpack"
 		"textAlignment"	"north"
 		"xpos"			"0"
 		"ypos"			"5"
@@ -385,7 +385,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowArmoryLabel"
 		"font"			"HudFontSmallestBold"
-		"labelText"		"#Armory"
+		"labelText"		"Catalog"
 		"textAlignment"	"north"
 		"xpos"			"0"
 		"ypos"			"5"
@@ -478,7 +478,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowPaintkitsLabel"
 		"font"			"HudFontSmallestBold"
-		"labelText"		"#PaintkitTitle"
+		"labelText"		"Warpaints"
 		"textAlignment"	"north"
 		"xpos"			"0"
 		"ypos"			"5"
@@ -585,7 +585,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor" "white"
 	}
 	"LoadoutChangesLabel"
 	{
@@ -653,46 +653,7 @@
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"30 25 25 245"
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	"ShowExplanationsButton"
 	{
 		"ControlName"	"CExButton"

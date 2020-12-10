@@ -88,23 +88,24 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ToggleChatButton"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"3"
+			"ypos"			"3"
 			"zpos"			"100"
-			"wide"			"45"
-			"tall"			"24"
+			"wide"			"40"
+			"tall"			"18"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"ProductBold14"
+			"font"			"ProductBold10"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"toggle_chat"
 			"proportionaltoparent"	"1"
-			"labeltext"		"CHAT"
+			"labeltext"		"Party"
+			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
@@ -113,8 +114,15 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
+			"fgcolor_override"			"white"
+			"defaultFgColor_override"	"white"
+			"armedFgColor_override"		"Gray30Solid"
+
+			"defaultBgColor_override"	"0 0 0 120"
+			"armedBgColor_override"		"accentM1"
+
+			"image_drawcolor"			"blank"
+			"image_armedcolor"			"blank"
 
 			"SubImage"
 			{
@@ -137,8 +145,8 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"45"
-			"ypos"			"3"
+			"xpos"			"1"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"18"
@@ -152,6 +160,10 @@
 			"keyboardinputenabled"	"0"
 
 			"party_slot"	"0"
+
+			"pin_to_sibling"		"ToggleChatButton"
+			"pin_corner_to_sibling"	"7"
+			"pin_to_sibling_corner"	"5"
 		}
 
 		"PartySlot1"
@@ -283,13 +295,10 @@
 		{
 			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
-			"xpos"			"cs-0.5"
-			"ypos"			"0"
-			"wide"			"240"
-			"tall"			"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 
 			"matchgroup"	"MatchGroup_Casual_12v12"
 

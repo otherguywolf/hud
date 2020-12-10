@@ -1,5 +1,3 @@
-#base "MatchMakingDashboardSidePanel2.res"
-
 "Resource/UI/MatchMakingDashboardPlayList.res"
 {
 	"ExpandableList"
@@ -25,7 +23,7 @@
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderModeSelect"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"font"			"HudFontMediumBold"
 		"fgcolor_override"	"White"
 		"mouseinputenabled"	"0"
@@ -66,15 +64,73 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayListDropShadow"
-		"xpos"			"8"
-		"ypos"			"50"
-		"zpos"			"1000"
-		"wide"			"255"
-		"tall"			"298"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"border"		"InnerShadowBorder"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
+		"enabled"		"0"
+	}
+
+		"Shade"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Shade"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"TitleGradient"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"TitleGradient"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
+	"InnerGradient"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"InnerGradient"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"OuterGradient"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"OuterGradient"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+"CloseButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CloseButton"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"ReturnButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ReturnButton"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 }

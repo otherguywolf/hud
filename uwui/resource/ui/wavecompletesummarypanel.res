@@ -38,21 +38,10 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabelShadow"
-			"font"			"HudFontMediumSmallBold"
-			"textAlignment"	"center"
-			"labelText"		"%titletext%"
-			"xpos"			"3"
-			"ypos"			"3"
-			"wide"			"245"
-			"tall"			"36"
-			"visible"		"0" //1
-			"enabled"		"0" //1
-			"fgcolor"		"black"		
-			
-			// Red Background
-			"PaintBackgroundType" "0" //2
-			"fgcolor_override"	"black"		
-			"bgcolor_override"	"190 60 60 225"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		
 		"WaveCompleteLabel"
@@ -197,14 +186,10 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingTextShadow"
-			"font"			"HudFontMediumBold"
-			"labelText"		"%ratingscore%"
-			"textAlignment" "center"
-			"xpos"			"1"
-			"ypos"			"20"
-			"wide"			"0" //115
-			"tall"			"0" //30
-			"fgcolor"		"Black"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		
 		"RatingText"
